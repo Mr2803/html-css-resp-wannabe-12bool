@@ -159,13 +159,15 @@ display: block;
   }
 
   .why img{
-    background-color:#428bca;
+    background-image:linear-gradient(#AA1433, #FEB61C);
     border-radius:50%;
     padding:10%;
   }
 
   h1{
-    color:white;
+    background: -webkit-linear-gradient(#AA1433, #FEB61C);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
     text-transform:uppercase;
     border-radius: 10px;
     display:inline-block;
