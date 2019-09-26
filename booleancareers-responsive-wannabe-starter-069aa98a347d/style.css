@@ -40,6 +40,20 @@ display: block;
 
 /* NOTE: desktop */
 @media screen and (min-width:992px){
+
+  body{
+    background-image: url(img/music.jpg);
+    background-attachment: fixed;
+  }
+
+  h1,h3,p{
+    color:white;
+  }
+
+  h1,h3{
+    text-transform: uppercase;
+  }
+
   .container.lezioni,
   .container.steps,
   .container.why{
@@ -50,7 +64,7 @@ display: block;
   .container.lezioni,
   .container.steps,
   .container.why{
-    border:1px solid black;
+    border:1px solid white;
     background: none;
   }
 
@@ -69,6 +83,28 @@ display: block;
     max-width: 95%;
     border-radius: 10px;
   }
+
+  .container.lezioni{
+    background-image: url(img/violino.jpg);
+    background-size: cover;
+  }
+
+  .container.steps{
+    background-image: url(img/tromba.jpeg);
+    background-size: cover;
+
+  }
+
+  .container.why{
+    background-image: url(img/pianoforte.jpg);
+    background-size: cover;
+
+  }
+
+
+
+
+
 }
 
 /* NOTE: smartphone */
