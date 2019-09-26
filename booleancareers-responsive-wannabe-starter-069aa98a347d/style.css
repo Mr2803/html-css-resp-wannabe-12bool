@@ -25,16 +25,36 @@ img{
   background:rgba(200, 158, 32, 0.61);
 }
 
-
+/* NOTE: desktop */
 @media screen and (min-width:992px){
-  .container{
+  .container.lezioni,
+  .container.steps,
+  .container.why{
     margin:0;
     max-width: 100%;
   }
-
 }
 
+/* NOTE: tablet */
+@media screen and (min-width:768px) and (max-width:991px){
+  .container.lezioni,
+  .container.steps,
+  .container.why{
+    margin:0 auto;
+    max-width: 95%;
+  }
+}
+
+/* NOTE: smartphone */
 @media screen and (max-width:767px;){
+
+  .container.lezioni,
+  .container.steps,
+  .container.why{
+    margin:0 auto;
+    width: 80%;
+  }
+
   img{
     width: 30%;
   }
