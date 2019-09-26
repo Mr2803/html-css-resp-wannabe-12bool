@@ -7,6 +7,21 @@ img{
   display: block;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 10px;
+}
+
+img.pc{
+  width: 75%;
+}
+
+a{
+text-decoration: none;
+color:inherit;
+display: block;
+}
+
+.container.steps a:hover{
+  opacity: 0.7;
 }
 
 .container.lezioni{
@@ -63,10 +78,26 @@ img{
   .container.why{
     margin:0 auto;
     width: 100%;
+    padding:5%;
+    border-radius: 10px;
+  }
+
+  .container [class*="col-"] .container{
+    border:1px solid white;
+  }
+
+  hr{
+    display :none;
   }
 
   img{
     width: 40%;
+  }
+
+  .why img{
+    background-color:#428bca;
+    border-radius:50%;
+    padding:10%;
   }
 
   h1{
@@ -79,15 +110,29 @@ img{
     width: auto;
   }
 
- h3{
-   color:white;
-   text-transform:uppercase;
-   border-radius: 10px;
-   display:block;
-   border:1px solid white;
-   padding: 5px;
-   width:40%;
-   margin-left: 30%;
+  h3{
+    color:white;
+    text-transform:uppercase;
+    border-radius: 10px;
+    display:block;
+    border:1px solid white;
+    width:40%;
+    margin-left: 30%;
+  }
+
+  h3 a:hover{
+    color:orange;
+  }
+
+  p{
+    color:white;
+    display: inline-block;
+    width:70%;
+  }
+
+ .container.steps{
+   margin-top: 10px;
+   margin-bottom: 10px;
 
  }
 
