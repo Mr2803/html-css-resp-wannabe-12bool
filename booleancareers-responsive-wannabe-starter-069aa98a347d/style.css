@@ -11,7 +11,7 @@ img{
 }
 
 img.pc{
-  width: 75%;
+  width: 78%;
 }
 
 a{
@@ -82,6 +82,7 @@ display: block;
     margin:0 auto;
     max-width: 95%;
     border-radius: 10px;
+    padding:10px;
   }
 
   .container.lezioni{
@@ -92,7 +93,15 @@ display: block;
   .container.steps{
     background-image: url(img/tromba.jpeg);
     background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
+  }
+
+  p{
+    color:white;
+    display: inline-block;
+    width:60%;
   }
 
   .container.why{
@@ -101,9 +110,17 @@ display: block;
 
   }
 
+  h1,h3,p{
+    color:white;
+  }
 
+  h1,h3{
+    text-transform: uppercase;
+  }
 
-
+  .border{
+    border:1px solid white;
+  }
 
 }
 
@@ -154,10 +171,6 @@ display: block;
     border:1px solid white;
     width:40%;
     margin-left: 30%;
-  }
-
-  h3 a:hover{
-    color:orange;
   }
 
   p{
