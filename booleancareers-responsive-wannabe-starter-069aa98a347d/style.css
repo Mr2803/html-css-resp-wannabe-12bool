@@ -24,23 +24,6 @@ color:inherit;
 display: block;
 }
 
-.container.steps a:hover{
-  opacity: 0.7;
-}
-
-/* .container.lezioni{
-  background:lightblue;
-}
-
-.container.steps{
-  background:lightgreen;
-}
-
-.container.why{
-  background:rgba(200, 158, 32, 0.61);
-} */
-
-
 
 /* NOTE: desktop */
 @media screen and (min-width:992px){
@@ -50,12 +33,27 @@ display: block;
     background-attachment: fixed;
   }
 
+  h1{
+    border-radius: 10px;
+    display:block;
+    border:1px solid white;
+    padding: 5px;
+    width: 30%;
+    margin-left: 35%;
+    background-image:linear-gradient(#1D0201, #B67E3C);
+  }
+
   h1,h3,p{
     color:white;
   }
 
   h1,h3{
     text-transform: uppercase;
+  }
+
+  p{
+    display: inline-block;
+    width:80%;
   }
 
   .container.lezioni,
@@ -84,9 +82,9 @@ display: block;
   .container.steps,
   .container.why{
     margin:0 auto;
-    max-width: 95%;
+    max-width: 100%;
     border-radius: 10px;
-    padding:10px;
+    padding:15px;
   }
 
   .container.lezioni{
@@ -102,8 +100,7 @@ display: block;
   }
 
   img.pc{
-    margin-bottom: 7px;
-
+    margin-bottom: 8px;
   }
 
   p{
@@ -115,7 +112,6 @@ display: block;
   .container.why{
     background-image: url(img/pianoforte.jpg);
     background-size: cover;
-
   }
 
   h1,h3,p{
@@ -128,7 +124,10 @@ display: block;
 
   .border{
     border:1px solid white;
+    box-shadow: 5px 10px #1D0100;
+    margin-left: 10px;
   }
+
 
 }
 
