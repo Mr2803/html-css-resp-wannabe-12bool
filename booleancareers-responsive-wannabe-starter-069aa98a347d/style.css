@@ -1,3 +1,45 @@
+.container {
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+img{
+  width:50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container.lezioni{
+  background:lightblue;
+}
+
+.container.steps{
+  background:lightgreen;
+}
+
+.container.why{
+  background:rgba(200, 158, 32, 0.61);
+}
+
+
+@media screen and (min-width:992px){
+  .container{
+    margin:0;
+    max-width: 100%;
+  }
+
+}
+
+@media screen and (max-width:767px;){
+  img{
+    width: 30%;
+  }
+}
+
 /* .row {
   width: 992px;
   margin-left: auto;
@@ -19,21 +61,6 @@
   margin-right: auto;
   margin-left: auto;
 } */ */
-
-.container {
-  text-align: center;
-}
-
-h1{
-  text-align: center;
-}
-
-img{
-  width:50%;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
 
 /* BLOCCO STEPS */
 /* #steps .row > .left,
